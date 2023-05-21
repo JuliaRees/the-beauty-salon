@@ -263,6 +263,14 @@ nav a {
 
 
 
+@media(max-width:83em) { 
+    h1 { font-size: 8rem; }
+}
+
+@media(max-width:68em) { 
+    h1 { font-size: 7.5rem; }
+}
+
 
 /* ------- MD Media Query (64em / 1024px) --------------- */ 
 
