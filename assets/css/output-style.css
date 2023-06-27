@@ -238,7 +238,9 @@ nav a {
 .button-appointment {
     padding: 0.5rem 2rem;
     background-color: grey;
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     color: #dcdad9;
   }
   
