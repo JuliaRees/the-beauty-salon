@@ -242,6 +242,7 @@ nav a {
        -moz-appearance: none;
             appearance: none;
     color: #dcdad9;
+    display: block;
   }
   
   .button-appointment:hover {
