@@ -11,12 +11,12 @@ seo:
 
 
         <!---------------Header Banner---------------->
-        <header class="bg-image padded bg-banner tall-80 grid">
+        <header class="bg-image p-5p bg-banner min-h-[75vh] sm:min-h-90 grid">
             <div class="col-7 right">
                 <a class="hamburger-button"> &#9776; </a>
             </div>
             <div class="col-12-bottom">
-                <h1 class="uppercase text-7xl sm:text-2xl text-red-400"> the beauty salon. </h1>
+                <h1 class="uppercase text-[7.5rem]"> the beauty salon. </h1>
             </div>
         </header>
 
@@ -28,23 +28,9 @@ seo:
             </nav>
         </div>
 
-        <!---------------Image Banner---------------->
-        <section class="grid tall-70">
-            <div class="col-4_sm-5 bg-image bg-statue-1 padded">
-            </div>
-            <div class="col-8_sm-7 grid bg-image bg-texture-1 padded tall-90">
-                <div class="col-12 right padded">
-                    <h2> a salon, <br> like no other </h2>
-                </div>
-                <div class="col-12-bottom right padded">
-                    <nav>
-                        <a href="#treatments" class="button lowercase"> Treatments </a> <br>
-                        <a href="#faq" class="button lowercase"> FAQs </a> <br>
-                        <a href="#appointment" class="button lowercase"> Make an appointment </a>
-                    </nav>
-                </div>
-            </div>
-        </section>
+        {% include image-banner.html %}
+
+
     
         <!---------------Treatments---------------->
        <section class="bg-image bg-treatments xs-bg" id="treatments">
