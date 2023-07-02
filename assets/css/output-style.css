@@ -423,6 +423,9 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.ml-\[33\%\] {
+  margin-left: 33%;
+}
 .block {
   display: block;
 }
@@ -431,9 +434,6 @@ video {
 }
 .grid {
   display: grid;
-}
-.aspect-square {
-  aspect-ratio: 1 / 1;
 }
 .h-full {
   height: 100%;
@@ -453,11 +453,23 @@ video {
 .grow {
   flex-grow: 1;
 }
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+.flex-col {
+  flex-direction: column;
+}
 .content-end {
   align-content: flex-end;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
 }
 .bg-cover {
   background-size: cover;
@@ -471,9 +483,6 @@ video {
 }
 .p-5p {
   padding: 5%;
-}
-.align-text-bottom {
-  vertical-align: text-bottom;
 }
 .text-\[7\.5rem\] {
   font-size: 7.5rem;
@@ -662,20 +671,22 @@ nav a {
 .mobile-menu {
     display: none;
     background-color: #b5b5b5;
-    padding: 5%;
+    padding: 2rem;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
     right: 0;
     text-align: center;
     text-transform: lowercase;
+    overflow-y: auto;
+    max-height: 20rem;
+    max-width: 30rem;
 }
 
 .mobile-menu a {
     text-decoration: none; 
     color: inherit; 
-    padding: 5vh 5%;
+    padding: 1rem;
     display: block;
     font-weight: normal;
     font-size: 1.5rem;

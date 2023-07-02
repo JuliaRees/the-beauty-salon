@@ -172,20 +172,22 @@ nav a {
 .mobile-menu {
     display: none;
     background-color: #b5b5b5;
-    padding: 5%;
+    padding: 2rem;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
     right: 0;
     text-align: center;
     text-transform: lowercase;
+    overflow-y: auto;
+    max-height: 20rem;
+    max-width: 30rem;
 }
 
 .mobile-menu a {
     text-decoration: none; 
     color: inherit; 
-    padding: 5vh 5%;
+    padding: 1rem;
     display: block;
     font-weight: normal;
     font-size: 1.5rem;
