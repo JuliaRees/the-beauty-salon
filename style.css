@@ -249,11 +249,10 @@ nav a {
 
 
 .button-appointment {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 3rem;
     background-color: grey;
     appearance: none;
     color: #dcdad9;
-    display: block;
   }
   
   .button-appointment:hover {

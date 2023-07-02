@@ -423,11 +423,8 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.ml-\[33\%\] {
-  margin-left: 33%;
-}
-.-ml-\[20\%\] {
-  margin-left: -20%;
+.-ml-\[30\%\] {
+  margin-left: -30%;
 }
 .block {
   display: block;
@@ -438,29 +435,26 @@ video {
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
 .h-full {
   height: 100%;
 }
-.min-h-70 {
+.min-h-40 {
+  min-height: 40vh;
+}
+.min-h-60 {
+  min-height: 60vh;
+}
+.min-h-\[70vh\] {
   min-height: 70vh;
-}
-.min-h-90 {
-  min-height: 90vh;
-}
-.min-h-\[75vh\] {
-  min-height: 75vh;
 }
 .w-full {
   width: 100%;
 }
-.max-w-sm {
-  max-width: 24rem;
-}
 .grow {
   flex-grow: 1;
-}
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -490,14 +484,30 @@ video {
 .p-5p {
   padding: 5%;
 }
-.text-\[7\.5rem\] {
-  font-size: 7.5rem;
+.py-5p {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.text-\[5\.5rem\] {
+  font-size: 5.5rem;
 }
 .uppercase {
   text-transform: uppercase;
 }
 .lowercase {
   text-transform: lowercase;
+}
+.leading-\[2\.8rem\] {
+  line-height: 2.8rem;
 }
 .transition-opacity {
   transition-property: opacity;
@@ -778,13 +788,12 @@ nav a {
 
 
 .button-appointment {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 3rem;
     background-color: grey;
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
     color: #dcdad9;
-    display: block;
   }
   
   .button-appointment:hover {
@@ -906,8 +915,29 @@ nav a {
 } 
 
 @media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+  .sm\:grid {
+    display: grid;
+  }
+  .sm\:min-h-50 {
+    min-height: 50vh;
+  }
+  .sm\:min-h-70 {
+    min-height: 70vh;
+  }
   .sm\:min-h-90 {
     min-height: 90vh;
+  }
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .sm\:text-\[7\.5rem\] {
+    font-size: 7.5rem;
   }
 }
 
