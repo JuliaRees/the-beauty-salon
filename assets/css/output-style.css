@@ -417,14 +417,17 @@ video {
 .inset-0 {
   inset: 0px;
 }
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
+}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
-}
-.-ml-\[30\%\] {
-  margin-left: -30%;
 }
 .block {
   display: block;
@@ -444,6 +447,9 @@ video {
 .min-h-40 {
   min-height: 40vh;
 }
+.min-h-50 {
+  min-height: 50vh;
+}
 .min-h-60 {
   min-height: 60vh;
 }
@@ -459,11 +465,11 @@ video {
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-.flex-col {
-  flex-direction: column;
-}
 .content-end {
   align-content: flex-end;
+}
+.items-end {
+  align-items: flex-end;
 }
 .items-center {
   align-items: center;
@@ -484,9 +490,28 @@ video {
 .p-5p {
   padding: 5%;
 }
+.px-5p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .py-5p {
   padding-top: 5%;
   padding-bottom: 5%;
+}
+.pb-0 {
+  padding-bottom: 0px;
+}
+.pb-10p {
+  padding-bottom: 10%;
+}
+.pl-\[2\%\] {
+  padding-left: 2%;
+}
+.pt-10p {
+  padding-top: 10%;
+}
+.pt-5p {
+  padding-top: 5%;
 }
 .text-center {
   text-align: center;
@@ -494,8 +519,11 @@ video {
 .text-right {
   text-align: right;
 }
-.align-middle {
-  vertical-align: middle;
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
 }
 .text-\[5\.5rem\] {
   font-size: 5.5rem;
@@ -785,14 +813,17 @@ nav a {
     color: gray;
 }
 
+.clickme {
+    text-align: center;
+    line-height: 1;
+}
 
+/*
 
 .button-appointment {
     padding: 0.5rem 3rem;
     background-color: grey;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
     color: #dcdad9;
   }
   
@@ -801,7 +832,7 @@ nav a {
   color: #dcdad9;
   }
 
-
+*/
 
 
 /* Typing Animation */
@@ -921,8 +952,8 @@ nav a {
   .sm\:grid {
     display: grid;
   }
-  .sm\:min-h-50 {
-    min-height: 50vh;
+  .sm\:min-h-60 {
+    min-height: 60vh;
   }
   .sm\:min-h-70 {
     min-height: 70vh;
@@ -935,6 +966,26 @@ nav a {
   }
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .sm\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+  .sm\:px-1p {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .sm\:pb-3p {
+    padding-bottom: 3%;
+  }
+  .sm\:pt-1p {
+    padding-top: 1%;
+  }
+  .sm\:text-left {
+    text-align: left;
+  }
+  .sm\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
   }
   .sm\:text-\[7\.5rem\] {
     font-size: 7.5rem;

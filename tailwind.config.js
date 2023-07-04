@@ -28,6 +28,7 @@ module.exports = {
       },
       colors: {
         'blue': '#1fb6ff',
+        'white': '#ffffff',
         'purple': '#7e5bef',
         'pink': '#ff49db',
         'orange': '#ff7849',
@@ -44,6 +45,8 @@ module.exports = {
           '12': '3rem',
         },
         spacing: {
+          '1p': '1%',
+          '3p': '3%',
           '5p': '5%',
           '10p': '10%',
           '15p': '15%',
