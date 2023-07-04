@@ -9,10 +9,11 @@
     box-sizing: border-box;
 }
 
-
+/*
 html {
         @apply border-8 sm:border-blue md:border-purple lg:border-pink;
     }
+*/
 
 
 .tall-30 { min-height: 30vh; }
