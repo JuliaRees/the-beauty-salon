@@ -169,7 +169,7 @@ nav a {
     position: fixed;
     right: 1rem;
     top: 1rem;
-    z-index: 2;
+    z-index: 20;
 }
 
 .hamburger-button.active {
@@ -182,13 +182,10 @@ nav a {
     padding: 2rem;
     position: fixed;
     top: 0;
-    bottom: 0;
     right: 0;
     text-align: center;
     text-transform: lowercase;
     overflow-y: auto;
-    max-height: 20rem;
-    max-width: 30rem;
 }
 
 .mobile-menu a {
@@ -250,6 +247,7 @@ nav a {
 .clickme {
     text-align: center;
     line-height: 1;
+    display: block;
 }
 
 /*
