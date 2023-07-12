@@ -180,6 +180,7 @@ nav a {
 .mobile-menu {
     display: none;
     background-color: #b5b5b5;
+    opacity: 0.9;
     padding: 2rem;
     position: fixed;
     top: 0;
