@@ -9,11 +9,13 @@
     box-sizing: border-box;
 }
 
+
 /*
 html {
         @apply border-8 sm:border-blue md:border-purple lg:border-pink;
     }
-*/
+    */
+
 
 
 .tall-30 { min-height: 30vh; }
@@ -95,7 +97,6 @@ a {
 
 .subtle {
     opacity: .5;
-    font-size: 0.8rem;
 }
 
 
@@ -245,7 +246,6 @@ nav a {
 }
 
 .clickme {
-    text-align: center;
     line-height: 1;
     display: block;
 }
@@ -341,13 +341,8 @@ nav a {
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
 
-    .xs-margin-0 { margin: 0%; }
-
-    .xs-padding { padding: 5%; }
-
     .xs-bg { background-image: url('/images/sm-bg.png') }
 
-    .xs-text { text-align: left; }
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
@@ -366,11 +361,6 @@ nav a {
 
     .button { font-size: 1rem; }
 
-    .xxs-tall-30 { min-height: 30vh; }
-
-    .hide-xxs { display: none;  }
-
-    .xxs-center { text-align: center; }
 }
 
 

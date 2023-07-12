@@ -469,9 +469,6 @@ video {
 .w-full {
   width: 100%;
 }
-.grow {
-  flex-grow: 1;
-}
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -511,11 +508,17 @@ video {
 .pb-0 {
   padding-bottom: 0px;
 }
+.pb-10p {
+  padding-bottom: 10%;
+}
 .pl-\[2\%\] {
   padding-left: 2%;
 }
 .pt-10p {
   padding-top: 10%;
+}
+.pt-5p {
+  padding-top: 5%;
 }
 .text-center {
   text-align: center;
@@ -528,6 +531,10 @@ video {
 }
 .text-\[5\.5rem\] {
   font-size: 5.5rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1.2;
 }
 .uppercase {
   text-transform: uppercase;
@@ -553,11 +560,13 @@ video {
     box-sizing: border-box;
 }
 
+
 /*
 html {
         @apply border-8 sm:border-blue md:border-purple lg:border-pink;
     }
-*/
+    */
+
 
 
 .tall-30 { min-height: 30vh; }
@@ -639,7 +648,6 @@ a {
 
 .subtle {
     opacity: .5;
-    font-size: 0.8rem;
 }
 
 
@@ -789,7 +797,6 @@ nav a {
 }
 
 .clickme {
-    text-align: center;
     line-height: 1;
     display: block;
 }
@@ -885,13 +892,8 @@ nav a {
 	.show-xs { display: block; }
 	.hide-xs { display: none;  }
 
-    .xs-margin-0 { margin: 0%; }
-
-    .xs-padding { padding: 5%; }
-
     .xs-bg { background-image: url('/images/sm-bg.png') }
 
-    .xs-text { text-align: left; }
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
@@ -910,11 +912,6 @@ nav a {
 
     .button { font-size: 1rem; }
 
-    .xxs-tall-30 { min-height: 30vh; }
-
-    .hide-xxs { display: none;  }
-
-    .xxs-center { text-align: center; }
 } 
 
 .hover\:opacity-0:hover {
@@ -925,14 +922,17 @@ nav a {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
   }
+  .sm\:m-3p {
+    margin: 3%;
+  }
   .sm\:block {
     display: block;
   }
   .sm\:grid {
     display: grid;
   }
-  .sm\:min-h-60 {
-    min-height: 60vh;
+  .sm\:min-h-40 {
+    min-height: 40vh;
   }
   .sm\:min-h-70 {
     min-height: 70vh;
@@ -953,15 +953,8 @@ nav a {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
-  .sm\:px-1p {
-    padding-left: 1%;
-    padding-right: 1%;
-  }
-  .sm\:pb-3p {
-    padding-bottom: 3%;
-  }
-  .sm\:pt-1p {
-    padding-top: 1%;
+  .sm\:p-3p {
+    padding: 3%;
   }
   .sm\:text-left {
     text-align: left;
@@ -975,8 +968,17 @@ nav a {
 } 
 
 @media (min-width: 768px) {
+  .md\:text-left {
+    text-align: left;
+  }
   .md\:text-right {
     text-align: right;
+  }
+} 
+
+@media (min-width: 1024px) {
+  .lg\:bg-right {
+    background-position: right;
   }
 }
 
