@@ -731,7 +731,6 @@ nav a {
 .mobile-menu {
     display: none;
     background-color: #b5b5b5;
-    opacity: 0.9;
     padding: 2rem;
     position: fixed;
     top: 0;
@@ -747,7 +746,6 @@ nav a {
     padding: 1rem;
     display: block;
     font-weight: normal;
-    font-size: 1.5rem;
   }
 
 /* Images & Background Images */
@@ -959,6 +957,9 @@ nav a {
   }
   .sm\:text-left {
     text-align: left;
+  }
+  .sm\:text-\[1\.2rem\] {
+    font-size: 1.2rem;
   }
   .sm\:text-\[3\.5rem\] {
     font-size: 3.5rem;

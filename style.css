@@ -180,7 +180,6 @@ nav a {
 .mobile-menu {
     display: none;
     background-color: #b5b5b5;
-    opacity: 0.9;
     padding: 2rem;
     position: fixed;
     top: 0;
@@ -196,7 +195,6 @@ nav a {
     padding: 1rem;
     display: block;
     font-weight: normal;
-    font-size: 1.2rem;
   }
 
 /* Images & Background Images */
