@@ -977,6 +977,12 @@ nav a {
 } 
 
 @media (min-width: 1024px) {
+  .lg\:grid {
+    display: grid;
+  }
+  .lg\:min-h-\[90vh\] {
+    min-height: 90vh;
+  }
   .lg\:bg-right {
     background-position: right;
   }
