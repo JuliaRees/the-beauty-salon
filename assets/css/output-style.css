@@ -454,23 +454,14 @@ video {
 .h-full {
   height: 100%;
 }
-.min-h-40 {
-  min-height: 40vh;
-}
-.min-h-50 {
-  min-height: 50vh;
-}
 .min-h-60 {
   min-height: 60vh;
 }
-.min-h-80 {
-  min-height: 80vh;
+.min-h-90 {
+  min-height: 90vh;
 }
 .min-h-\[70vh\] {
   min-height: 70vh;
-}
-.min-h-90 {
-  min-height: 90vh;
 }
 .w-full {
   width: 100%;
@@ -935,12 +926,6 @@ nav a {
   }
   .sm\:grid {
     display: grid;
-  }
-  .sm\:min-h-40 {
-    min-height: 40vh;
-  }
-  .sm\:min-h-70 {
-    min-height: 70vh;
   }
   .sm\:min-h-90 {
     min-height: 90vh;
