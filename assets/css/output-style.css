@@ -435,6 +435,9 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.m-5p {
+  margin: 5%;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -481,6 +484,10 @@ video {
 .justify-center {
   justify-content: center;
 }
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .bg-cover {
   background-size: cover;
 }
@@ -496,6 +503,9 @@ video {
 }
 .p-5p {
   padding: 5%;
+}
+.p-3p {
+  padding: 3%;
 }
 .px-5p {
   padding-left: 5%;
@@ -923,9 +933,6 @@ nav a {
   .sm\:col-span-full {
     grid-column: 1 / -1;
   }
-  .sm\:m-3p {
-    margin: 3%;
-  }
   .sm\:block {
     display: block;
   }
@@ -943,13 +950,6 @@ nav a {
   }
   .sm\:justify-center {
     justify-content: center;
-  }
-  .sm\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-  .sm\:p-3p {
-    padding: 3%;
   }
   .sm\:text-left {
     text-align: left;
