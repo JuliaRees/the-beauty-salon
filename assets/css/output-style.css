@@ -420,17 +420,11 @@ video {
 .bottom-0 {
   bottom: 0px;
 }
-.left-0 {
-  left: 0px;
-}
-.bottom-1 {
-  bottom: 0.25rem;
-}
-.left-1 {
-  left: 0.25rem;
-}
 .bottom-4 {
   bottom: 1rem;
+}
+.left-0 {
+  left: 0px;
 }
 .left-4 {
   left: 1rem;
