@@ -963,6 +963,9 @@ nav a {
   .sm\:block {
     display: block;
   }
+  .sm\:flex {
+    display: flex;
+  }
   .sm\:grid {
     display: grid;
   }
@@ -980,6 +983,9 @@ nav a {
   }
   .sm\:text-left {
     text-align: left;
+  }
+  .sm\:text-center {
+    text-align: center;
   }
   .sm\:text-\[1\.2rem\] {
     font-size: 1.2rem;
