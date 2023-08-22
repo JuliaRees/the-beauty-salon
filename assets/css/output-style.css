@@ -435,19 +435,16 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.m-5p {
-  margin: 5%;
-}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
-.my-5p {
-  margin-top: 5%;
-  margin-bottom: 5%;
+.my-10p {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-.mr-5p {
-  margin-right: 5%;
+.mb-10p {
+  margin-bottom: 10%;
 }
 .block {
   display: block;
@@ -505,18 +502,11 @@ video {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.p-10p {
-  padding: 10%;
-}
-.p-5p {
-  padding: 5%;
-}
 .p-3p {
   padding: 3%;
 }
-.px-5p {
-  padding-left: 5%;
-  padding-right: 5%;
+.p-5p {
+  padding: 5%;
 }
 .py-5p {
   padding-top: 5%;
@@ -779,20 +769,20 @@ nav a {
 
 
 .bg-banner { background-image: url('/images/banner-background.png')}
-.bg-statue-1 { background-image: url('/images/statue-1.png')}
+.bg-statue-1 { background-image: url('/images/statue-1-small.png')}
 .bg-texture-1 { background-image: url('/images/background-texture.png')}
-.bg-eyelashes { background-image: url('/images/eyelashes.png')}
+.bg-eyelashes { background-image: url('/images/eyelashes-small.png')}
 .bg-massage { background-image: url('/images/massage.png')}
 .bg-waxing { background-image: url('/images/waxing.png')}
 .bg-nails { background-image: url('/images/nails.png')}
-.bg-treatments { background-image: url('/images/treatment-background.png')}
+.bg-treatments { background-image: url('/images/treatment-background-small.png')}
 .bg-leaf { 
     background-image: url('/images/bannerleaf.png') ;
     background-position: 50% 5% ;
 }
 .bg-statue-2 { background-image: url('/images/statue-2.png') ; }
 .berlin { background-image: url('/images/berlin.png')}
-.shorttexture { background-image: url('/images/shorttexture.png')}
+.shorttexture { background-image: url('/images/shorttexture-small.png')}
 
 .bg-texture-2 { background-image: url('/images/texture.png')}
 
@@ -919,10 +909,7 @@ nav a {
 
 @media(max-width:25em) {
 
-	[class*="grid"] .xxs-stack { 
-        flex-basis: 100%;
-        max-width: 100%;
-    }
+
 
     h1 { font-size: 7rem; }
 
@@ -937,8 +924,28 @@ nav a {
 } 
 
 @media (min-width: 640px) {
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
   .sm\:col-span-full {
     grid-column: 1 / -1;
+  }
+  .sm\:m-5p {
+    margin: 5%;
+  }
+  .sm\:mx-5p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .sm\:my-5p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .sm\:mb-5p {
+    margin-bottom: 5%;
+  }
+  .sm\:mr-5p {
+    margin-right: 5%;
   }
   .sm\:block {
     display: block;

@@ -217,20 +217,20 @@ nav a {
 
 
 .bg-banner { background-image: url('/images/banner-background.png')}
-.bg-statue-1 { background-image: url('/images/statue-1.png')}
+.bg-statue-1 { background-image: url('/images/statue-1-small.png')}
 .bg-texture-1 { background-image: url('/images/background-texture.png')}
-.bg-eyelashes { background-image: url('/images/eyelashes.png')}
+.bg-eyelashes { background-image: url('/images/eyelashes-small.png')}
 .bg-massage { background-image: url('/images/massage.png')}
 .bg-waxing { background-image: url('/images/waxing.png')}
 .bg-nails { background-image: url('/images/nails.png')}
-.bg-treatments { background-image: url('/images/treatment-background.png')}
+.bg-treatments { background-image: url('/images/treatment-background-small.png')}
 .bg-leaf { 
     background-image: url('/images/bannerleaf.png') ;
     background-position: 50% 5% ;
 }
 .bg-statue-2 { background-image: url('/images/statue-2.png') ; }
 .berlin { background-image: url('/images/berlin.png')}
-.shorttexture { background-image: url('/images/shorttexture.png')}
+.shorttexture { background-image: url('/images/shorttexture-small.png')}
 
 .bg-texture-2 { background-image: url('/images/texture.png')}
 
@@ -357,10 +357,7 @@ nav a {
 
 @media(max-width:25em) {
 
-	[class*="grid"] .xxs-stack { 
-        flex-basis: 100%;
-        max-width: 100%;
-    }
+
 
     h1 { font-size: 7rem; }
 
