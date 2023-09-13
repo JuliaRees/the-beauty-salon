@@ -574,6 +574,31 @@ html {
     scroll-behavior: smooth;
   }
 
+/* For regular laptops and smaller screens */
+body {
+    max-width: 100%; /* Allow it to expand to the full width of the screen */
+}
+
+/* For larger screens like flatscreen TVs */
+@media screen and (min-width: 1600px) {
+    body {
+        max-width: 1400px; /* Set a specific max-width for larger screens */
+        margin: 0 auto; /* Center the content horizontally */
+    }
+
+    /* Apply styles to the header for larger screens */
+    header {
+        max-width: 1400px; /* Set the same max-width as body */
+        margin: 0 auto; /* Center the header content horizontally */
+    }
+
+    /* Apply styles to the hamburger button for larger screens */
+    .hamburger-button {
+        position: relative; /* Use relative positioning */
+        right: 0; /* Reset the right position */
+        top: 0; /* Reset the top position */
+    }
+}
 
 /*
 html {
@@ -764,7 +789,8 @@ nav a {
     padding: 1rem;
     display: block;
     font-weight: normal;
-  }
+}
+
 
 /* Images & Background Images */
 
