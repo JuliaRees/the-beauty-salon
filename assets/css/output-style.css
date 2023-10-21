@@ -956,11 +956,58 @@ nav a {
 
     .button { font-size: 1rem; }
 
-} 
+}
+
+
+/* Social Hub */
+.social-menu ul {
+    position: absolute;
+    top: 13%;
+    left: 94%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; /* Stack the icons vertically */
+    align-items: center; /* Center the icons horizontally */
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 0 15px 0; /* Add margin to separate the icons vertically */
+}
+
+.social-menu ul li .fab {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #868686;
+}
+
+.social-menu ul li .fab:hover {
+    color: #fff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10%);
+    background-color: rgba(0, 0, 0, 0.829);
+}
 
 .hover\:opacity-0:hover {
   opacity: 0;
-} 
+}
 
 @media (min-width: 640px) {
   .sm\:col-span-1 {
@@ -1022,7 +1069,7 @@ nav a {
   .sm\:text-\[7\.5rem\] {
     font-size: 7.5rem;
   }
-} 
+}
 
 @media (min-width: 768px) {
   .md\:text-left {
@@ -1031,7 +1078,7 @@ nav a {
   .md\:text-right {
     text-align: right;
   }
-} 
+}
 
 @media (min-width: 1024px) {
   .lg\:min-h-\[90vh\] {
@@ -1041,5 +1088,3 @@ nav a {
     background-position: right;
   }
 }
-
-
