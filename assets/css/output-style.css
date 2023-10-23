@@ -452,6 +452,9 @@ video {
 .mb-10p {
   margin-bottom: 10%;
 }
+.mb-5p {
+  margin-bottom: 5%;
+}
 .block {
   display: block;
 }
@@ -504,6 +507,9 @@ video {
 .bg-center {
   background-position: center;
 }
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -521,11 +527,23 @@ video {
 .pb-0 {
   padding-bottom: 0px;
 }
+.pb-15p {
+  padding-bottom: 15%;
+}
+.pb-\[3\%\] {
+  padding-bottom: 3%;
+}
 .pl-\[2\%\] {
   padding-left: 2%;
 }
-.pt-10p {
-  padding-top: 10%;
+.pt-15p {
+  padding-top: 15%;
+}
+.pt-5p {
+  padding-top: 5%;
+}
+.pt-\[3\%\] {
+  padding-top: 3%;
 }
 .text-center {
   text-align: center;
@@ -791,6 +809,12 @@ nav a {
     font-weight: normal;
 }
 
+/* Add a media query to hide the nav button on screens wider than 1600px */
+@media (min-width: 1600px) {
+    .hamburger-button {
+      display: none;
+    }
+  }
 
 /* Images & Background Images */
 
@@ -844,21 +868,7 @@ nav a {
     display: block;
 }
 
-/*
 
-.button-appointment {
-    padding: 0.5rem 3rem;
-    background-color: grey;
-    appearance: none;
-    color: #dcdad9;
-  }
-  
-  .button-appointment:hover {
-  background-color: #928c89;
-  color: #dcdad9;
-  }
-
-*/
 
 
 /* Typing Animation */
@@ -961,20 +971,14 @@ nav a {
 
 /* Social Hub */
 .social-menu ul {
-    position: absolute;
-    top: 13%;
-    left: 94%;
     padding: 0;
     margin: 0;
-    transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column; /* Stack the icons vertically */
-    align-items: center; /* Center the icons horizontally */
 }
 
 .social-menu ul li {
     list-style: none;
-    margin: 0 0 15px 0; /* Add margin to separate the icons vertically */
+    margin: 0 7px;
 }
 
 .social-menu ul li .fab {
@@ -1072,6 +1076,9 @@ nav a {
 }
 
 @media (min-width: 768px) {
+  .md\:pt-10p {
+    padding-top: 10%;
+  }
   .md\:text-left {
     text-align: left;
   }
@@ -1083,8 +1090,5 @@ nav a {
 @media (min-width: 1024px) {
   .lg\:min-h-\[90vh\] {
     min-height: 90vh;
-  }
-  .lg\:bg-right {
-    background-position: right;
   }
 }

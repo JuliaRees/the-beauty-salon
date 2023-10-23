@@ -230,6 +230,12 @@ nav a {
     font-weight: normal;
 }
 
+/* Add a media query to hide the nav button on screens wider than 1600px */
+@media (min-width: 1600px) {
+    .hamburger-button {
+      display: none;
+    }
+  }
 
 /* Images & Background Images */
 
@@ -283,21 +289,7 @@ nav a {
     display: block;
 }
 
-/*
 
-.button-appointment {
-    padding: 0.5rem 3rem;
-    background-color: grey;
-    appearance: none;
-    color: #dcdad9;
-  }
-  
-  .button-appointment:hover {
-  background-color: #928c89;
-  color: #dcdad9;
-  }
-
-*/
 
 
 /* Typing Animation */
@@ -400,20 +392,14 @@ nav a {
 
 /* Social Hub */
 .social-menu ul {
-    position: absolute;
-    top: 13%;
-    left: 94%;
     padding: 0;
     margin: 0;
-    transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column; /* Stack the icons vertically */
-    align-items: center; /* Center the icons horizontally */
 }
 
 .social-menu ul li {
     list-style: none;
-    margin: 0 0 15px 0; /* Add margin to separate the icons vertically */
+    margin: 0 7px;
 }
 
 .social-menu ul li .fab {
